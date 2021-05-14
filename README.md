@@ -8,7 +8,7 @@ The hexagonal architecture was invented by Alistair Cockburn in an attempt to av
 > 
 > ~ James Coplien / Lean Architecture
 
-We recommend Hexagonal Architecture for those who want to write clean, maintainable, well-defined boundary context, well-tested domain and decoupling business logic from technical code.
+We recommend Hexagonal Architecture for  those who want to write clean, maintainable, well-defined boundary context, well-tested domain and decoupling business logic from technical code.
 
 ### Tech Stack
  - Java 11
