@@ -72,6 +72,11 @@
             <!-- artifactId>jersey-container-servlet</artifactId -->
         </dependency>
         <dependency>
+             <groupId>org.sonarsource.scanner.maven</groupId>
+             <artifactId>sonar-maven-plugin</artifactId>
+             <version>3.9.0.2155</version>
+        </dependency>
+        <dependency>
             <groupId>org.glassfish.jersey.inject</groupId>
             <artifactId>jersey-hk2</artifactId>
         </dependency>
