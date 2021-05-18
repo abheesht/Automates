@@ -8,15 +8,16 @@
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>demorest</name>
+         
+    <properties>
+           <sonar.projectKey>abheesht_Automates</sonar.projectKey>
+           <sonar.organization>auto-mates</sonar.organization>
+           <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    </properties>
 
     <build>
         <finalName>demorest</finalName>
         <plugins>
-            <plugin>
-                <groupId>org.sonarsource.scanner.maven</groupId>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.9.0.2155</version>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
