@@ -2,6 +2,9 @@
 
 ### What is the Hexagonal Architecture
 
+
+
+
 The hexagonal architecture was invented by Alistair Cockburn in an attempt to avoid known structural pitfalls in object-oriented software design, such as undesired dependencies between layers and contamination of user interface code with business logic, and published in 2005.
 
 > A timeless goal of sofware engineering has been to separate code that changes frequently from code that is stable.
