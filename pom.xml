@@ -8,13 +8,6 @@
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>demorest</name>
-         
-    <properties>
-           <sonar.projectKey>abheesht_Automates</sonar.projectKey>
-           <sonar.organization>auto-mates</sonar.organization>
-           <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-    </properties>
-
     <build>
         <finalName>demorest</finalName>
         <plugins>
@@ -75,11 +68,6 @@
             <artifactId>jersey-container-servlet-core</artifactId>
             <!-- use the following artifactId if you don't need servlet 2.x compatibility -->
             <!-- artifactId>jersey-container-servlet</artifactId -->
-        </dependency>
-        <dependency>
-             <groupId>org.sonarsource.scanner.maven</groupId>
-             <artifactId>sonar-maven-plugin</artifactId>
-             <version>3.9.0.2155</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.inject</groupId>
